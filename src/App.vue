@@ -1,10 +1,5 @@
 <template>
   <div id="app">
-    <div id="header">
-      <div class="header-wrapper">
-        <div class="left">网易云音乐</div>
-      </div>
-    </div>
     <router-view />
   </div>
 </template>
@@ -29,7 +24,11 @@
   };
 </script>
 
-<style lang="scss" scoped>
+<style
+  lang="scss"
+>
+  @import "./assets/iconfont/iconfont.css";
+
   #header {
     height: 64px;
 
@@ -49,6 +48,13 @@
       height: 64px;
       background-color: #d43c33;
       box-sizing: border-box;
+
+      .logo {
+        img {
+          margin-top: 10px;
+          width: 140px;
+        }
+      }
     }
   }
 

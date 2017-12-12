@@ -1,7 +1,8 @@
 <template lang="pug">
   div
     h1 hello world
-      div(slot="content") 123
+      span.iconfont.icon-wangyiyunyinlezizhi-copy
+      div 345
 </template>
 
 <script>
